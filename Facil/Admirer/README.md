@@ -4,8 +4,6 @@
 **Dificultad**: Facil \
 **Puntos**: 20
 
-***
-
 ## Resumen
 - Fuzzing de directorios y archivos
 - File Disclosure Adminer 4.6.2
@@ -13,15 +11,12 @@
 - Escalamiento de Privilegios mediante sudo
 - Python Hijacking
 
-***
-
 ## Nmap Scan
 
 `nmap -Pn -sV -sC -p- 10.10.10.187`
 
 ![nmap](capturas/nmap.png)
 
-***
 ## Enumeración
 
 Se puede visualizar que en el puerto `80` existe el archivo `robots.txt` y contiene la ruta `/admin-dir`.
@@ -58,8 +53,6 @@ Se usa `wfuzz` para encontrar más archivos `php` en el directorio.
 
 ![wfuzz](capturas/wfuzz.png)
 
-***
-
 ## Exploit Adminer 4.6.2
 
 Podemos ver que al entrar a la ruta `/utility-scripts/adminer.php` vemos un portal para conectarnos a un servidor mysql, también se puede  visualizar la versión de la aplicación.
@@ -93,7 +86,6 @@ Procedemos a conectarnos por **ssh** con el usuario y password.
 
 ![user](capturas/user.png)
 
-***
 ## Escalamiento de Privilegios
 
 Podemos ver que tenemos permisos **sudo** para ejecutar un comando y también pertenecemos al grupo **admins**.
@@ -146,9 +138,6 @@ Ejecutamos el comando sudo y le damos la opción **6**.
 Y veremos que obtenemos una reverse shell con privilegios root.
 
 ![root](capturas/root.png)
-
-
-***
 
 ## Referencias
 https://sansec.io/research/adminer-4.6.2-file-disclosure-vulnerability \
