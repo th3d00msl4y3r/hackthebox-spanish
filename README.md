@@ -16,6 +16,7 @@ Documentación maquinas HackTheBox.
 + [Resolute](Medio/Resolute)
 
 ### Difícil
++ [Blackfield](Dificil/Blackfield)
 + [FowardSlash](Dificil/FowardSlash)
 + [Quick](Dificil/Quick)
 + [Travel](Dificil/Travel)
