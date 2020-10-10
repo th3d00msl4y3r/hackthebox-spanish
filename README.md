@@ -11,6 +11,7 @@ Documentación maquinas HackTheBox.
 
 ### Medio
 + [Book](Medio/Book)
++ [Cache](Medio/Cache)
 + [Cascade](Medio/Cascade)
 + [Magic](Medio/Magic)
 + [Resolute](Medio/Resolute)
