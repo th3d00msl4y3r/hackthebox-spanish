@@ -4,6 +4,7 @@ Documentación maquinas HackTheBox.
 
 ### Facil
 + [Admirer](Facil/Admirer)
++ [Blunder](Facil/Blunder)
 + [Remote](Facil/Remote)
 + [Sauna](Facil/Sauna)
 + [ServMon](Facil/ServMon)
