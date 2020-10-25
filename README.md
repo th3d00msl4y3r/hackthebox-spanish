@@ -24,3 +24,4 @@ Documentación maquinas HackTheBox.
 + [Travel](Dificil/Travel)
 
 ### Insano
++ [Dyplesher](Insano/Dyplesher)
