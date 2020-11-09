@@ -8,12 +8,14 @@ Documentación maquinas HackTheBox.
 + [Remote](Facil/Remote)
 + [Sauna](Facil/Sauna)
 + [ServMon](Facil/ServMon)
++ [Tabby](Facil/Tabby)
 + [Traceback](Facil/Traceback)
 
 ### Medio
 + [Book](Medio/Book)
 + [Cache](Medio/Cache)
 + [Cascade](Medio/Cascade)
++ [Fuse](Medio/Fuse)
 + [Magic](Medio/Magic)
 + [Resolute](Medio/Resolute)
 
